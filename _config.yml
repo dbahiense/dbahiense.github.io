@@ -1,11 +1,11 @@
 # Site
-name: 'Mundana'
+name: 'Aprendizado de Máquina com Douglas Bahiense'
 description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+baseurl: '/'
+disqus: 'bahien.se'
+email: 'douglas@bahien.se'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -28,12 +28,12 @@ authors:
       twitter:        https://twitter.com/wowthemesnet
 
     jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      name:           Douglas Bahiense
+      site:           https://bahien.se
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Filósofo em substância e programador por acidente."
+      email:          douglas@bahien.se
+      twitter:        http://bahien.se
  
 # Defaults
 defaults:
