@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Olá mundo!"
-categories: [ presentation ]
+author: douglas
+categories: [ filosofia ]
 image: assets/images/demo1.jpg
 ---
 Eu admito que um site que comece com a famigerada frase "Olá mundo!" pode não parecer tão sério quanto se propõe. Do mesmo modo, apesar de não ser nem um pouco supersticioso, em se tratando de máteria de inteligência artificial, não queremos dar chance ao azar.
