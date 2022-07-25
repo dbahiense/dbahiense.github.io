@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Regressão Linear na Prática"
-author: douglas
 categories: [ ML, algoritmos, regressão, praxis ]
 image: assets/images/4.jpg
-tags: [featured]
 ---
 There are lots of powerful things you can do with the Markdown editor
 
