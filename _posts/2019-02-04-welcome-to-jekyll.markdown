@@ -1,12 +1,16 @@
 ---
 layout: post
-title:  "Olá mundo! Bem vindo ao meu site."
-categories: [ hi ]
+title:  "Olá mundo!"
+categories: [ presentation ]
 image: assets/images/demo1.jpg
 ---
-Olá! Meu nome é Douglas Bahiense. Sou filósofo em substância e programador por acidente. Quem conhece um pouco a filosofia de Aristóteles vai entender melhor a afirmação anterior sem nenhum sobresalto. Quem não conhece, não importa, pois por aqui vamos tratar mais de aprendizado de máquina do que qualquer outro assunto.
+Eu admito que um site que comece com a famigerada frase "Olá mundo!" pode não parecer tão sério quanto se propõe. Do mesmo modo, apesar de não ser nem um pouco supersticioso, em se tratando de máteria de inteligência artificial, não queremos dar chance ao azar.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+
+Vamos, pois, tentar de novo: Olá! Meu nome é **Douglas Bahiense**. Eu sou filósofo em substância e programador, há mais de 15 anos, por acidente. Quem conhece um pouco a filosofia de Aristóteles entenderá melhor a que a afirmação anterior se refere. Mas no fundo, sabendo muito ou nada da filosofia aristotélica, não importa: esse site não é sobre filosofia, mas primordialmente sobre **aprendizado de máquina** (ou *machine learning*, como se diz em inglês).
+
+
 
 Jekyll also offers powerful support for code snippets:
 
