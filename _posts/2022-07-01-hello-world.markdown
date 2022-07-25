@@ -8,11 +8,18 @@ Eu admito que um site que comece com a famigerada frase "Olá mundo!" pode não 
 
 
 
-Vamos, pois, tentar de novo: Olá! Meu nome é **Douglas Bahiense**. Eu sou filósofo em substância e programador, há mais de 15 anos, por acidente. Quem conhece um pouco a filosofia de Aristóteles entenderá melhor a que a afirmação anterior se refere. Mas no fundo, sabendo muito ou nada das lições do egrégio estagirita, não importa: esse site não é sobre filosofia, mas primordialmente sobre **aprendizado de máquina** (ou *machine learning*, como se diz em inglês). Sendo ainda mais específico, as postagens aqui publicadas são frutos de minhas experiências (tanto no sentido aristotélico como no moderno), meus estudos e pesquisas *æquo animo* nessa entusiasmante (e algumas vezes extenuante) área da ciência da computação. Dessa forma, desde o ginásio (e ao utilizar essa palavra, já se pode *predizer* mais ou menos a minha idade) sempre guardei melhor o conhecimento: se sou capaz de explicar mais ou menos com minhas próprias palavras a matéria estudada, passo a acreditar (Sócrates que me perdoe) que apreendi algo a respeito.
+Vamos, pois, tentar de novo: Olá! Meu nome é **Douglas Bahiense**. Sou filósofo em substância e programador, há mais de 15 anos, por acidente. Quem conhece um pouco a filosofia de Aristóteles entenderá melhor a que a afirmação anterior se refere. Mas no fundo, sabendo muito ou nada das lições do egrégio estagirita, não importa: esse site não é sobre filosofia, mas primordialmente sobre **aprendizado de máquina** (ou *machine learning*, como se diz em inglês). Sendo ainda mais específico, as postagens aqui publicadas são frutos de minhas experiências (tanto no sentido aristotélico como no moderno), de meus estudos e pesquisas *æquo animo* nessa entusiasmante (e algumas vezes extenuante) área da ciência da computação. Dessa forma, desde o ginásio (pronto! agora já se pode *predizer* a minha idade) sempre guardei melhor o conhecimento: se sou capaz de explicar mais ou menos com minhas próprias palavras a matéria estudada, passo a acreditar (Sócrates que me perdoe) que sei algo a respeito.
 
 
 
 Jekyll also offers powerful support for code snippets:
+
+
+{% highlight python %}
+while True:
+  print("It's true!")
+{% endhighlight python %}
+
 
 {% highlight ruby %}
 def print_hi(name)
