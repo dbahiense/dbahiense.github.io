@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-categories: [ Jekyll ]
+title:  "Olá mundo! Bem vindo ao meu site."
+categories: [ hi ]
 image: assets/images/demo1.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Olá! Meu nome é Douglas Bahiense. Sou filósofo em substância e programador por acidente. Quem conhece um pouco a filosofia de Aristóteles vai entender melhor a afirmação anterior sem nenhum sobresalto. Quem não conhece, não importa, pois por aqui vamos tratar mais de aprendizado de máquina do que qualquer outro assunto.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
