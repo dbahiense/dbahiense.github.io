@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "O que são algoritmos?"
-categories: [ algoritmos ]
+categories: [algoritmos]
 image: assets/images/3.jpg
-tags: [featured]
+tags: featured
 ---
 Não estamos falando dos algoritmos que aprendemos nas aulas de lógica no primeiro semestre da faculdade de filosofia. Sim, faculdade de f-i-l-o-s-o-f-i-a! Ao contrário do que muitos pensam, o estudo metódico tanto da lógica como dos algoritmos se deu primeiramente entre os sábio gregos alguns milênios antes da criação do primeiro computador (isso se desconsiderarmos a máquina de anticítera que, todavia, provavelmente foi desenvolvida por um filósofo em *lato sensu*). E "mais recentemente", continuou a ser desenvolvido por caras como G.Frege, B.Russel e L.Wittgenstein, para citar apenas alguns dos maiores.
 

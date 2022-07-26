@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Regressão Linear na Prática"
-categories: [ ML, algoritmos, regressão, praxis ]
+categories: [algoritmos, regressão, tutorial]
 image: assets/images/4.jpg
 ---
 There are lots of powerful things you can do with the Markdown editor

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Um peixe chamado Weka"
-categories: softwares
+categories: programas
 image: ./assets/images/weka.jpg
 tags: featured
 ---

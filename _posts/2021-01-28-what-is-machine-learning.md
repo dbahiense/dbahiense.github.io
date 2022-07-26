@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "O que é aprendizado de máquina?"
-categories: [ machine learning, definitions ]
+categories: [definições]
 image: ./assets/images/8.jpg
-tag: [ featured ]
+tag: [featured]
 ---
 The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 
 
