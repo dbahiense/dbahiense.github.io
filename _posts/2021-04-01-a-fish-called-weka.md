@@ -5,7 +5,7 @@ categories: softwares
 image: ./assets/images/weka.jpg
 tags: featured
 ---
-Bom, Weka não é de fato um peixe, mas eu não podia deixar de fazer a referência ao elogiadíssimo filme de John Cleese.
+Bom, Weka não é de fato um peixe, mas eu não poderia deixar de fazer a referência ao elogiadíssimo filme de John Cleese.
 
 Weka, na verdade, é essa pequena ave, endêmica da Nova Zelândia, que você pode ver na foto acima. E em referência a ela, os pesquisadores da Universidade de Waikato forjaram o acrônimo **Weka** para nomear essa incrível ferramenta para a aplicação prática de aprendizado de máquina: **Waikato Enviroment for Knowledge Analysis**.
 
