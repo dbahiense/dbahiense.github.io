@@ -13,3 +13,5 @@ O passo-a-passo aqui apresentado poderá ser usado como a base para todos os dem
   3 - empregar os algoritmos mais adequados conforme os dados disponíveis,
   4 - avaliar os resultados de cada algoritmo empregado,
   5 - apresentar os resultados finais.
+
+### Carregando os dados
