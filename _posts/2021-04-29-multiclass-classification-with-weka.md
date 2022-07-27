@@ -4,7 +4,7 @@ title:  "Classificação Multiclasse com Weka"
 categories: [classificação, multiclasse, weka, tutorial]
 image: assets/images/2.jpg
 ---
-Nessa postagem, vamos realizar nosso primeiro projeto de classificação multiclasse utilizando o Weka. Caso ainda não tenha feito, talvez você queira ler antes o artigo onde eu falo [como instalar e iniciar o Weka pela primeira vez](./_posts/2021-04-08-install-weka.html). Pode ir lá primeiro. Estarei esperando por aqui. Mas caso você já tenha lido o artigo supracitado, basta seguir adiante.
+Nessa postagem, vamos realizar nosso primeiro projeto de classificação multiclasse utilizando o Weka. Caso ainda não tenha feito, talvez você queira ler antes o artigo onde eu falo [como instalar e iniciar o Weka pela primeira vez](https://bahien.se/install-weka). Pode ir lá primeiro. Estarei esperando por aqui. Mas caso você já tenha lido o artigo supracitado, basta seguir adiante.
 
 O passo-a-passo aqui apresentado poderá ser usado como base para todos os demais projetos que você queira realizar com a ferramenta. Em geral, faremos praticamente sempre o seguinte:
 
@@ -14,7 +14,7 @@ O passo-a-passo aqui apresentado poderá ser usado como base para todos os demai
   4. avaliar os resultados de cada algoritmo empregado,  
   5. apresentar os resultados finais.
 
-Vamos, então, à diversão e com o Weka já aberto clique em  **Explorer**.
+Então, vamos à diversão e com o Weka já aberto clique em  **Explorer**.
 
 image
 
@@ -28,6 +28,15 @@ Nesse local você encontrará vários arquivos com a extensão *.arff*. Clique e
 image
 
 ### Analisando os dados
-Com os dados carregados no Explorer, a melhor coisa a se fazer primeiramente é dar uma olhada em geral no que temos à disposição antes de se começar a modelar diretamente. Deve-se analisar como se apresenta a distribuição dos dados para cada atributo e a relação intrínseca entre os próprios atributos. Dessa forma, vislumbramos a melhor maneira de preparar/corrigir os dados e também podemos decidir melhor (e com a prática isso vai se tornando cada vez mais instantâneo) quais os modelos e técnicas específicas utilizar para esse caso específico.
+Com os dados carregados no Explorer, a melhor coisa a se fazer primeiramente é dar uma olhada em geral no que temos à disposição antes de se começar a modelar algo de súbito. Deve-se analisar como se apresenta a distribuição dos dados para cada atributo e a relação intrínseca entre os próprios atributos. Dessa forma, vislumbramos a melhor maneira de preparar/corrigir os dados e também podemos decidir melhor (e com a prática isso vai se tornando cada vez mais instantâneo) quais os modelos e técnicas específicas a se utilizar para cada caso específico.
 
 #### Estatísticas
+No painel *Current relation* nós já podemos ver diversas informações sobre nossa base de dados. Ficamos sabendo que há, por exemplo, 150 instâncias e para cada instância, 5 atributos, sendo 4 atributos de entrada (*inputs*) e um de saída (*output*). Como só há apenas 150 instâncias, para melhores resultados, seria melhor dividir as instâncias em 5 grupos de 30 (ao invés de 10 grupos de 15) para uma eventual validação cruzada (*cross-validation*) na hora de avaliar os algoritmos no futuro.
+
+Como há um pequeno número de atributos, podemos nos debruçar melhor sobre eles e investigá-los mais profundamente. Para isso clique sobre cada um dos atributos (à esquerda) e veja suas informações mais detalhadas (à direita). Dessa forma, veremos que não há valores ausentes em nenhum dos atributos. Além disso, todos os valores de entrada (*input*) são numéricos e todos estão no mesmo intervalo entre 0 e 8. O último atributo é a saída (*output*) que por sua vez é nominal e possui três valores distintos. Ademais, as classes estão perfeitamente balanceadas, o que significa dizer que cada uma possui exatamente a mesma quantidade de instâncias. Nesse caso, 50 instâncias em cada classe. Conforme essas características podemos pensar tanto em normalizar como em padronizar os dados ao manipulá-los antes de criar nosso modelo.
+
+#### Distribuição
+Clique agora em **Visualize all** e vamos dar uma olhada melhor na distribuição gráfica de cada atributo.
+
+image
+
