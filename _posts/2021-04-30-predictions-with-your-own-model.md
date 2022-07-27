@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Predições de seu próprio modelo com Weka"
-categories: [regressão, weka]
+title:  "Predições com seu próprio Modelo"
+categories: [classificação, weka]
 image: assets/images/11.jpg
 ---
 

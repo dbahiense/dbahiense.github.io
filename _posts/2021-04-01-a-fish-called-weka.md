@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Um peixe chamado Weka"
-categories: programas
+categories: [programas, weka]
 image: ./assets/images/weka.jpg
 tags: featured
 ---
