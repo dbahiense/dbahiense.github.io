@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "What is Jekyll"
-author: jane
-categories: [ Jekyll, tutorial ]
+title:  "Predições de seu próprio modelo com Weka"
+categories: [regressão, weka]
 image: assets/images/11.jpg
 ---
 
