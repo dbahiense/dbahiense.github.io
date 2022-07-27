@@ -4,7 +4,7 @@ title:  "Classificação Multiclasse com Weka"
 categories: [classificação, multiclasse, weka, tutorial]
 image: assets/images/2.jpg
 ---
-Vamos iniciar nosso primeiro projeto utilizando o Weka.
+Nessa postagem, vamos realizar nosso primeiro projeto de classificação multiclasse utilizando o Weka.
 
 O passo-a-passo aqui apresentado poderá ser usado como base para todos os demais projetos que você queira realizar com a ferramenta. Em geral, faremos praticamente sempre o seguinte:
 
