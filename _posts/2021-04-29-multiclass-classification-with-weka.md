@@ -27,3 +27,7 @@ Nesse local você encontrará vários arquivos com a extensão *.arff*. Clique e
 
 image
 
+### Analisando os dados
+Com os dados carregados no Explorer, a melhor coisa a se fazer primeiramente é dar uma olhada em geral no que temos à disposição antes de se começar a modelar diretamente. Deve-se analisar como se apresenta a distribuição dos dados para cada atributo e a relação intrínseca entre os próprios atributos. Dessa forma, vislumbramos a melhor maneira de preparar/corrigir os dados e também podemos decidir melhor (e com a prática isso vai se tornando cada vez mais instantâneo) quais os modelos e técnicas específicas utilizar para esse caso específico.
+
+#### Estatísticas
