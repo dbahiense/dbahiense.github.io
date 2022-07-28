@@ -15,6 +15,8 @@ O passo-a-passo aqui apresentado poderá ser usado como base para quase todos os
   5. avaliar os resultados de cada algoritmo empregado,  
   6. apresentar os resultados finais.
 
+Nesse artigo em particular iremos tratar dos três primeiros passos (na verdade dos dois primeiros, pois, como se verá, não será necessária nenhuma manipulação mais específica dos dados). Os demais passos, serão tratados em postagens subsequentes.
+
 Vamos, então, à diversão e, com o Weka já aberto, clique em  **Explorer**.
 
 image
@@ -37,11 +39,17 @@ No painel **Current relation** nós já podemos ver diversas informações sobre
 Como há também um pequeno número de atributos, podemos investigá-los um a um, mais a fundo. Para isso, clique sobre cada um dos atributos (à esquerda) e veja suas informações mais detalhadas (à direita). Veremos, com efeito, que não há valores ausentes em nenhum dos atributos. Além disso, todos os valores de entrada (*inputs*) são *numéricos* e todos estão no mesmo intervalo entre 0 e 8. O último atributo é a saída (*output*) que por sua vez é *nominal* e possui três valores distintos. Ademais, as classes estão perfeitamente balanceadas, o que significa dizer que cada uma possui exatamente a mesma quantidade de instâncias. Nesse caso, 50 instâncias em cada classe. Conforme essas características, podemos pensar tanto em normalizar como em padronizar os dados ao manipulá-los antes de criar nosso modelo.
 
 #### Distribuição
-Clique agora em **Visualize all** e vamos dar uma olhada melhor na distribuição gráfica de cada atributo.
+Clique agora em **Visualize all** e vamos dar uma olhada na distribuição gráfica de cada atributo.
 
 image
 
 Também a representação gráfica dos dados nos traz valiosadas informações. Nós podemos ver alguma interseção entre os dados, mas, no geral, as distribuições são bem definidas e separadas o que provavelmente vai nos facilitar a separar as três diferentes classes. O atributo *sepalwidth* (largura da [sépala](https://pt.wikipedia.org/wiki/S%C3%A9pala)) possui praticamente uma distribuição normal (gausiana). As demais três entradas (*inputs*) também apresentam distribuições semelhantes à normal (se tivéssemos mais instâncias, provavelmente isso se tornaria mais evidente) e com concentração de valores nas extremidades de cada distribuição. Os gráficos também espelham o fato das classes estarem perfeitamente balanceadas.
 
 #### Interação entre os Atributos
-Clique agora 
+Clique agora na aba **Visualize** e vamos rever algumas interações entre os atributos. Maximize a janela que se abriu para que todos os gráficos possam ser visualizados concomitantemente. Aumente o **PointSize** para 3 para ficar mais fácil de se ver os pontos nos gráficos e clique em **Update**.
+
+Vemos que há uma boa separação das classes nos gráficos de dispersão (*scatter plots*), como em *petalwidth* por *sepallenght* e *petalwidth* por *sepalwidth*. Dessa forma podemos pensar em aplicar métodos lineares e talvez árvores de decisão (*decision trees*) ou métodos de aprendizado baseado em instâncias (*instance basead learning*) em nossa abordagem. Provavelmente não precisaremos gastar muito tempo ajustando os algoritmos nem utilizando técnicas mais elaboradas para a modelagem.
+
+No próximo artigo iremos dar prosseguimento a esse nosso primeiro experimento na prática com Weka. Te vejo na próxima postagem.
+
+73
