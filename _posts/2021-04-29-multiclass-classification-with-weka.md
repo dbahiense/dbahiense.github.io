@@ -41,4 +41,7 @@ Clique agora em **Visualize all** e vamos dar uma olhada melhor na distribuiçã
 
 image
 
-Também a representação gráfica dos dados nos traz valiosadas informações. Nós podemos ver alguma interseção entre os dados, mas, no geral, as distribuições são bem definidas e separadas o que provavelmente vai nos facilitar a separar as 3 diferentes classes. O atributo *sepalwidth* (largura da [sépala](https://pt.wikipedia.org/wiki/S%C3%A9pala)) 
+Também a representação gráfica dos dados nos traz valiosadas informações. Nós podemos ver alguma interseção entre os dados, mas, no geral, as distribuições são bem definidas e separadas o que provavelmente vai nos facilitar a separar as três diferentes classes. O atributo *sepalwidth* (largura da [sépala](https://pt.wikipedia.org/wiki/S%C3%A9pala)) possui praticamente uma distribuição normal (gausiana). As demais três entradas (*inputs*) também apresentam distribuições semelhantes à normal (se tivéssemos mais instâncias, provavelmente isso se tornaria mais evidente) e com concentração de valores nas extremidades de cada distribuição. Os gráficos também espelham o fato das classes estarem perfeitamente balanceadas.
+
+#### Interação entre os Atributos
+Clique agora 
