@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Classificação Multiclasse com Weka"
+title:  "Classificação Multiclasse com Weka (parte 01)"
 categories: [classificação, multiclasse, weka, tutorial]
 image: assets/images/2.jpg
 ---
