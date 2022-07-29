@@ -15,18 +15,37 @@ Conforme o passo-a-passo apresentado abaixo, já falamos de como carregar e anal
   5. avaliar os resultados de cada algoritmo empregado,  
   6. apresentar os resultados finais.
 
-Vamos, então, voltar à diversão e, iniciar a avaliação de alguns algoritmos. Se você ainda não o fez, feche o **Explorer**, caso ele esteja aberto e abra o **Weka Experimenter Environment**.
+Vamos, então, voltar à diversão e iniciar a avaliação de alguns algoritmos. Se você ainda não o fez, feche o **Explorer** caso ele esteja aberto e abra o **Weka Experimenter Environment**.
 
 image
 
 
 
-### Carregando os dados
-Nesse primeiro projeto, vamos utilizar uma das bases de dados que já vem com a instalação padrão da ferramenta. Na janela do Explorer que se abriu, clique agora em **Open file** e vá até a pasta **data/** que, por sua vez, se encontra dentro da pasta onde você instalou o Weka. No meu caso, no Linux, as bases de dados se encontram no seguinte caminho: **~/ml/weka-3-8-6/data/**.
+### Escolhendo e avaliando os algoritmos
+Clique em **New** para iniciar um novo experimento. Em **Experiment Type** mude o **Number of folds** para 5. Como falamos anteriormente, como não há muitas instâncias na base de dados, o ideal é que tenhamos menos grupos com mais instâncias. Em nosso caso concreto, 5 grupos de 30 instâncias.
 
-Nesse local você encontrará vários arquivos com a extensão *.arff*. Clique em **iris.arff** e depois em **Abrir** (ou *Open*). Pronto, os dados foram carregados com suscesso e você verá uma tela semelhante à figura que se segue:
+Em **Datasets** clique agora em **Add new...** e selecione novamente a nossa base de dados em **caminho/para/data/iris.arff**. Substituta *caminho/para/* de acordo com a sua própria instalação.
+
+Agora em **Algoritms** clique em **Add new...** e vamos selecionar os seguintes algoritmos:
+
+- rules.ZeroR  
+- bayes.NaiveBayes  
+- functions.Logistic  
+- functions.SMO  
+- lazy.IBk  
+- rules.PART  
+- trees.REPTree  
+- tress.J48  
+
+Vamos falar de cada um desses algoritmos com mais detalhes em outros artigos. No momento estamos apenas colocando a mão na massa e aprendendo como usar o Weka. A parte teórica sobre os algoritmos pode ficar momentaneamente de lado.
+
+Selecione agora o algoritmo IBk e clique em **Edit selected**. Vamos editar um parâmetro desse algoritmo antes de iniciar o experimento. Mude, portanto, **KNN** para 3 e clique em **OK**. 
 
 image
+
+Finalmente vamos dar início ao nosso experimento. Clique no painel **Run** e em seguida em **Start**. O experimento não durará mais do que alguns segundos.
+
+
 
 ### Analisando os dados
 Com os dados carregados no Explorer, a melhor coisa a se fazer primeiramente é dar uma olhada em geral no que temos à disposição antes de se começar a modelar algo de súbito. Deve-se analisar como se apresenta a distribuição dos dados para cada atributo e a relação intrínseca entre os próprios atributos. Dessa forma, vislumbramos a melhor maneira de preparar/corrigir os dados e também podemos decidir melhor (e com a prática isso vai se tornando cada vez mais instantâneo) quais os modelos e técnicas específicas a se utilizar para cada caso específico.
