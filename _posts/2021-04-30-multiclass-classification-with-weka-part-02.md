@@ -51,3 +51,5 @@ image
 Clique agora na aba **Analyse** e, em seguida, clique no botão **Experiment** para carregar os resultados do nosso experimento que acabamos de realizar. Agora clique no botão **Perform test**. Será feita uma análise comparativa do algoritmo ZeroR com todos os demais algoritmos que nós selecionamos anteriormente.
 
 image
+
+Na imagem pode-se ver que todos os algoritmos tiveram um resultado melhor do que o algoritmo ZeroR. A diferença estatística é, de fato, considerável. Os resultados apontam também que tanto a Logistic Regression e a SVM possuem as acurácias mais elevadas. Vamos, portanto, realizar a mesma comparação, mas tomando agora a Logistic Regression como base. Escolhemos a Logistic Regression por ser um modelo muito mais simples. E como se diz por aí, a simplicidade é o mais alto grau de sofisticação.
