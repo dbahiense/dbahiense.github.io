@@ -13,7 +13,8 @@ Conforme o passo-a-passo apresentado abaixo, já falamos de como carregar e anal
   3. ~~manipular os dados~~,  
   4. empregar os algoritmos mais adequados conforme os dados disponíveis,  
   5. avaliar os resultados de cada algoritmo empregado,  
-  6. apresentar os resultados finais.
+  6. ajudar parâmetros para aprimorar os resultados dos algoritmos mais promissores,   
+  7. apresentar os resultados finais.
 
 Vamos, então, voltar à diversão e iniciar a avaliação de alguns algoritmos. Se você ainda não o fez, feche o **Explorer** caso ele esteja aberto e abra o **Weka Experimenter Environment**.
 
@@ -52,4 +53,10 @@ Clique agora na aba **Analyse** e, em seguida, clique no botão **Experiment** p
 
 image
 
-Na imagem pode-se ver que todos os algoritmos tiveram um resultado melhor do que o algoritmo ZeroR. A diferença estatística é, de fato, considerável. Os resultados apontam também que tanto a Logistic Regression e a SVM possuem as acurácias mais elevadas. Vamos, portanto, realizar a mesma comparação, mas tomando agora a Logistic Regression como base. Escolhemos a Logistic Regression por ser um modelo muito mais simples. E como se diz por aí, a simplicidade é o mais alto grau de sofisticação.
+Na imagem pode-se ver que todos os algoritmos obtiveram um resultado melhor do que o algoritmo ZeroR. Se você reparar bem, notará que a diferença estatística é, de fato, considerável. Os resultados apontam também que tanto a Logistic Regression como a SVM possuem as acurácias mais elevadas do conjunto. Vamos, portanto, realizar a mesma comparação, mas tomando agora a Logistic Regression como base. Escolhemos a Logistic Regression (ao invés da SVM) por ser um modelo muito mais simples. E como se diz por aí, a simplicidade é o mais alto grau de sofisticação.
+
+Como fizemos anteriormente, em **Test base** clique **Select**, selecione *functions.Logistic* e clique no botão **Select**. Agora clique novamente no botão **Perform test** para iniciar a nova análise.
+
+image
+
+Agora vemos que o resultado da Logistic Regression permanece bom, mas tirando o caso do ZeroR, vemos também que a diferença para todos os outros algoritmos não é estatisticamente significativa. Dessa forma podemos escolher o melhor algoritmo de acordo com outros critérios como complexidade ou inteligibilidade. Sob essa ótica, Logistic Regression e Naive Bayes passam a ser nossos melhores candidatos. Vamos então fazer alguns ajustes para aprimorar nos resultados dos algoritmos para ver se há alguma melhora significativa.
