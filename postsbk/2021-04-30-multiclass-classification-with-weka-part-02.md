@@ -38,7 +38,7 @@ Agora em **Algoritms** clique em **Add new...** e vamos selecionar os seguintes 
 - trees.REPTree  
 - tress.J48  
 
-Vamos falar de cada um desses algoritmos com mais detalhes em outros artigos. No momento estamos apenas colocando a mão na massa e aprendendo como usar o Weka. A parte teórica sobre os algoritmos pode ficar momentaneamente de lado.
+Vamos falar de cada um desses algoritmos com mais detalhes em outros artigos. No momento estamos apenas colocando a mão na massa e aprendendo como usar o Weka na prática. A parte teórica sobre os algoritmos pode ficar momentaneamente de lado.
 
 Selecione agora o algoritmo IBk e clique em **Edit selected**. Vamos editar um parâmetro desse algoritmo antes de iniciar o experimento. Mude, portanto, **KNN** para 3 e clique em **OK**. 
 
